@@ -13,9 +13,7 @@ x = [1, 2, 3, 4, 5]
 np.mean(x)
 ```
 
-$$
-\bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_i
-$$
+<img src="https://latex.codecogs.com/gif.latex?\bar{x}&space;=&space;\frac{1}{n}\sum_{i=1}^{n}x_i" title="\bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_i" />
 
 幾何平均：データが比率の場合
 
@@ -24,9 +22,7 @@ from scipy import stats
 x = stats.gmean(y_list)
 ```
 
-$$
-m_g = \sqrt[n]{{x_1}{x_2}{x_3}\cdots{x_n}}
-$$
+<img src="https://latex.codecogs.com/gif.latex?m_g&space;=&space;\sqrt[n]{{x_1}{x_2}{x_3}\cdots{x_n}}" title="m_g = \sqrt[n]{{x_1}{x_2}{x_3}\cdots{x_n}}" />
 
 調和平均：往復したときの平均時速など
 
@@ -35,12 +31,7 @@ form scipy import stats
 x = stats.hmean(y_list)
 ```
 
-$$
-\begin{align}
-m_h &=\frac{1}{\frac{1}{n}(\frac{1}{x_1}+\frac{1}{x_2}+\cdots+\frac{1}{x_n})}\\
-&=\frac{1}{\frac{1}{n}\sum_{i=1}^{n}(\frac{1}{x_n})}
-\end{align}
-$$
+<img src="https://latex.codecogs.com/gif.latex?\begin{align}&space;m_h&space;&=\frac{1}{\frac{1}{n}(\frac{1}{x_1}&plus;\frac{1}{x_2}&plus;\cdots&plus;\frac{1}{x_n})}\\&space;&=\frac{1}{\frac{1}{n}\sum_{i=1}^{n}(\frac{1}{x_n})}&space;\end{align}" title="\begin{align} m_h &=\frac{1}{\frac{1}{n}(\frac{1}{x_1}+\frac{1}{x_2}+\cdots+\frac{1}{x_n})}\\ &=\frac{1}{\frac{1}{n}\sum_{i=1}^{n}(\frac{1}{x_n})} \end{align}" />
 
 算術平均からの差の合計は常に0になる
 ここから平均につながっていく
