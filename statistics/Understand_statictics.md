@@ -65,3 +65,37 @@ print('99%信頼区間は {:.2f} < x < {:.2f}'.format(bottom1, up1))
 # 95%信頼区間は 64.32 < x < 65.68
 # 99%信頼区間は 64.11 < x < 65.89
 ```
+# t検定
+```python
+ch = pd.Series( [7, 8, 10, 5, 8, 7, 9, 5, 6, 9, 10, 6, 7, 8, 7, 9, 10, 6])
+pe = pd.Series( [9, 9, 6, 10, 9, 8, 10, 7, 9, 10, 6, 8, 9, 9, 10, 7, 8, 8, 10, 9])
+
+print(f'桜組の平均点 = {ch.mean():.2f}')
+print(f'桃組の平均点 = {pe.mean():.2f}')
+print(f'2群の平均点 = {(abs(ch.mean()-pe.mean())):.2f}')
+
+# 桜組の平均点 = 7.61
+# 桃組の平均点 = 8.55
+# 2群の平均の差 = 0.94
+
+t, p = stats.ttest_ind(pe, ch, equal_var=True)
+MU = abs(ch.mean()-pe.mean())
+SE = MU/t
+DF = len(ch)+len(pe)-2
+CI = stats.t.interval( alpha=0.99, loc=MU, scale=SE, df=DF)
+
+print(f'p値 = {p:.3f}')
+print(f't値 = {t:.2f}')
+print(f'自由度は = {DF}')
+print(f'平均値の差 = {MU:.2f}')
+print(f'差の標準誤差 = {SE:.2f}')
+print(f'平均値の差の99％信頼区間 = [{CI[0]:.2f},{CI[1]:.2f}]')
+
+# p値 = 0.056
+# t値 = 1.97
+# 自由度は = 36
+# 平均値の差 = 0.94
+# 差の標準誤差 = 0.48
+# 平均値の差の99％信頼区間 = [-0.36,2.23]
+
+
