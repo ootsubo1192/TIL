@@ -17,4 +17,4 @@
 
 ### Git
 
--[blanch](git/blanch.md)
+- [blanch](git/blanch.md)
