@@ -1,4 +1,4 @@
-#　mysqlサーバーへの接続方法
+# mysqlサーバーへの接続方法
 
 まずは[Mysql Cliant](https://login.oracle.com/mysso/signon.jsp)を
 Oracleにログインしてインストール
