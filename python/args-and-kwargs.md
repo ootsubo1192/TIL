@@ -1,5 +1,7 @@
 # \*args and **kwargs
 
+\*argsと\**kwargsの正体は`Unpacking operator`
+
 ### \*args
 
 ```python
