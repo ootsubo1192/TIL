@@ -5,7 +5,8 @@
 ```mysql
 create view <viewname>(<culume>,<culume2>,...)
 as 
-selct * from <dbname>;
+selct * from <dbname>
+    ...;
 ```
 
 ### view の呼び出し
