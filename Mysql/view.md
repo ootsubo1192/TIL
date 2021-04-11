@@ -3,9 +3,9 @@
 ### view の作成
 
 ```mysql
-create view <viewname>(<culume>,<culume2>,...)
+create view <new-viewname>(<culume>,<culume2>,...)
 as 
-selct * from <dbname>
+selct * from <tablename>
     ...;
 ```
 
