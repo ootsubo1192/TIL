@@ -1,13 +1,13 @@
 # select command
 
 ```mysql
-seletct * from <db-name>;
+seletct * from <tablename>;
 ```
 
 `*`すべての列の表示
 
 ```mysql
-select <f><culme1>, <culme2> <rename> from <db-name> 
+select <f><culme1>, <culme2> <rename> from <tablename> 
     where <culume> <date> = '20xx-xx-xx;
 ```
 
