@@ -1,4 +1,4 @@
-# 初歩的なコマンド
+# show command
 
 ```mysql
 show databases;
