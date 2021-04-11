@@ -3,13 +3,13 @@
 DBの選択
 
 ```mysql
-use <schemas-name>;
+use <schemasname>;
 ```
 
 DBの表示
 
 ```mysql
-select * from <db-name>;
+select * from <tablename>;
 ```
 
 `*`ですべての列を表示
@@ -18,11 +18,11 @@ select * from <db-name>;
 コメントアウト、実行しないコマンドの入力
 
 ```myseql
--- select * from <db-name>;
+-- select * from <tablename>;
 ```
 
 ```mysql
 /* use <schemas-name>;
-   select * from <db-name>; */
+   select * from <tablename>; */
 ```
  
