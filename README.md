@@ -18,6 +18,26 @@
 * [statistics](#statistics)
 
 ### Git
-
 - [blanch](git/blanch.md)
+- [git-remote-cange-url](git/git-remote-cange-url.md)
+- [git-branch](git/git_branch.md)
+- [git-fetch](git/git_fetch.md)
+- [git-merge](git/git_merge.md)
+- [git-new](git/git_new.md)
+- [git-push](git/git_p_ush.md)
+- [github-flow](git/github_flow.md)
+- [init](git/init.md)
+
+### AWS
+
+### Mysql
+
+### Markdown
+
+### Python
+
+### self-taught
+
+### statistics
+
 
