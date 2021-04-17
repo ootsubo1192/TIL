@@ -8,7 +8,7 @@ $ git remote -v
 
 続いて新しいリモートURLに変更していきます。
 GithubのWebページからクローン元のURLをコピー
-元のGit remote URLを <dt>ssh</dt> か　<dt>https</dt>　か確認しておく。
+元のGit remote URLを <dt>ssh</dt> か <dt>https</dt> か確認しておく。
 
 ```bash
 $ git remote set-url origin <newURL>
