@@ -24,7 +24,7 @@
 - [git-fetch](git/git_fetch.md)
 - [git-merge](git/git_merge.md)
 - [git-new](git/git_new.md)
-- [git-push](git/git_p_ush.md)
+- [git-push](git/git_push.md)
 - [github-flow](git/github_flow.md)
 - [init](git/init.md)
 
