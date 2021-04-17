@@ -10,8 +10,14 @@
 ### Categories
 
 * [Git](#git)
-
+* [AWS](#AWS)
+* [Mysql](#Mysql)
+* [Markdown](#markdown)
+* [Python](#python)
+* [self-taught](#self-taught)
+* [statistics](#statistics)
 
 ### Git
 
 - [blanch](git/blanch.md)
+
