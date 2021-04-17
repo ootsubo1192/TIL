@@ -1,4 +1,4 @@
-# Elastic Network Interface$
+# Elastic Network Interface
 
 まずは、ENIの前にNIC(Network Interface Card)の話から、
 NICとは物理的な環境におけるネットワークインターフェースのことで、
