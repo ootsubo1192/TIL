@@ -16,6 +16,7 @@
 * [Python](#python)
 * [self-taught](#self-taught)
 * [statistics](#statistics)
+* [Vim](#vim)
 
 ### Git
 - [blanch](git/blanch.md)
@@ -39,5 +40,8 @@
 ### self-taught
 
 ### statistics
+
+### Vim
+- [Navigation-Commands.md](vim/Navigation-Commands.md)
 
 
