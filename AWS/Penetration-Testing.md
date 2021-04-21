@@ -1,6 +1,6 @@
 # AWSサービスへの侵入テスト
 
-## 許可されたサービス
+### 許可されたサービス
 
 - Amaxon EC2 instances, NAT gateways, and Elastic Load Balancers
 
@@ -19,7 +19,7 @@
 - Amazon Elastic Beanstalk environments
 
 
-## 禁止される行為
+### 禁止される行為
 
 - DNS zone walking via Amazon Route 53 Hosted Zones
 
@@ -30,5 +30,5 @@ Simulated Dos, Simuleted DDos
 
 - Protocol flooding
 
--Request flooding(login request flooding, API request flooding)
+- Request flooding(login request flooding, API request flooding)
 
