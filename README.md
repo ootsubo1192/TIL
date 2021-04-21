@@ -42,6 +42,8 @@
 ### statistics
 
 ### Vim
-- [Navigation-Commands.md](vim/Navigation-Commands.md)
-
+- [Navigation-Commands](vim/Navigation-Commands.md)
+- [Deleting](vim/Deleting.md)
+- [Cut-Copy-Paste](vim/Cut-Copy-Paste.md)
+- [Getting-help](vim/Getting-help.md)
 
