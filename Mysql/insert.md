@@ -1,4 +1,4 @@
-#insert command
+# insert command
 
 新規にデータを追加する
 
