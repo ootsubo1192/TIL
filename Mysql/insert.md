@@ -1,4 +1,4 @@
-#insert command
+# insert command
 
 新規にデータを追加する
 
@@ -11,20 +11,20 @@ insert into <table_name> (column_name1, column_name2, ...)
 
 keyとvalueの数は一致している必要がある
 
-## column を指定せずにデータの追加
+## 列名を指定せずにデータの追加
 
-## syntax
+### syntax
 
 ```mysql
 insert <table_name> values(value1, value2, ...);
 ```
 
-テーブル内のすべての列に対して、値を指定してやる必要がある。
+テーブル内のすべての列に対して、値を指定してあげる必要がある。
 ミスがおこるのであまり使わない。
 
-### 複数行のデータを追加する
+## 複数行のデータを追加する
 
-## syntax
+### syntax
 
 ```mysql
 insert into <table_name> (column_name1, column_name2 ...)

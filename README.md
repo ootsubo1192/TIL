@@ -32,6 +32,7 @@
 ### AWS
 
 ### Mysql
+- [insert](Mysql/insert.md)
 
 ### Markdown
 
