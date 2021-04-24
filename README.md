@@ -33,6 +33,7 @@
 
 ### Mysql
 - [insert](Mysql/insert.md)
+- [update](Mysql/update.md)
 
 ### Markdown
 
