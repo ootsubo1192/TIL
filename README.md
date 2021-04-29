@@ -48,4 +48,5 @@
 - [Deleting](vim/Deleting.md)
 - [Cut-Copy-Paste](vim/Cut-Copy-Paste.md)
 - [Getting-help](vim/Getting-help.md)
+- [Search](vim/search.md)
 
