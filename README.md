@@ -34,7 +34,7 @@
 ### Mysql
 - [insert](Mysql/insert.md)
 - [update](Mysql/update.md)
-- [avg](Mysql/abg.md)
+- [avg](Mysql/avg.md)
 - [basic-command](Mysql/basic-command.md)
 - [create-database](Mysql/create-database.md)
 - [create-table](Mysql/create-table.md)
