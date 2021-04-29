@@ -34,12 +34,27 @@
 ### Mysql
 - [insert](Mysql/insert.md)
 - [update](Mysql/update.md)
+- [avg](Mysql/abg.md)
+- [basic-command](Mysql/basic-command.md)
+- [create-database](Mysql/create-database.md)
+- [create-table](Mysql/create-table.md)
+- [delete](Mysql/delete.md)
+- [group-by](Mysql/group-by.md)
+- [inner-join](Mysql/inner-join.md)
+- [order-by](Mysql/order-by.md)
+- [outer-join](Mysql/outer-join.md)
+- [round](Mysql/round.md)
+- [select-command](Mysql/select-command.md)
+- [show](Mysql/show.md)
+- [sub-query](Mysql/sub-query.md)
+- [view](Mysql/view.md)
 
 ### Markdown
-
+- [Markdown](markdown/markdown.md)
 ### Python
 
 ### self-taught
+- [Selt-taught](self-taught/self-taught.py)
 
 ### statistics
 
@@ -49,4 +64,6 @@
 - [Cut-Copy-Paste](vim/Cut-Copy-Paste.md)
 - [Getting-help](vim/Getting-help.md)
 - [Search](vim/search.md)
+- [Insert](vim/insert.md)
+
 
