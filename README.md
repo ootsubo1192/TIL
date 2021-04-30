@@ -65,5 +65,5 @@
 - [Getting-help](vim/Getting-help.md)
 - [Search](vim/search.md)
 - [Insert](vim/insert.md)
-
+- [Text-objects](vim/text-objects.md)
 
