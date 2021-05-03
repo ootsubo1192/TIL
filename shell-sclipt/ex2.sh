@@ -1,10 +1,10 @@
 #!/bin/zsh
 
-echo ファイル名を指定してください。(拡張子は必要ありません)
+echo ファイル名を指定してください。
 
 read file_name
 
-touch ${file_name}.sh
+touch ${file_name}
 
 # "shiban"を新規作成したファイルに出力
 echo "#!/bin/zsh" > ${file_name}
