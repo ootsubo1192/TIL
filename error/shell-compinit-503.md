@@ -4,7 +4,7 @@
 
 `compinit:503: no such file or directory: /usr/local/share/zsh/site-functions/_brew_cask`
 
-何故かそのようなファイルやディレクトリーはないとえらーになるの
+何故かそのようなファイルやディレクトリーはないとエラーになる
 
 ```zsh
 brew cleanup
