@@ -26,7 +26,7 @@ for _ in range(10):
     print('hello')
 ```
 
-"range" 関数で1~10まで関数をループさせる( **_** を使うことでrange関数からのindex番号は出力に使われないと表明できる)
+"range" 関数で1~10まで関数をループさせる( _ を使うことでrange関数からのindex番号は出力に使われないと表明できる)
 
 ## enumerate
 
@@ -37,4 +37,14 @@ for i, fruit in enumerate(['apple', 'banana', 'orange']):
 
 "i"にindex番号を入れて同時に出力
 
+## dict
+
+```python
+d = {'x': 100, 'y': 200}
+
+for k, v in d.items():
+    print(k, ':', v)
+```
+
+"items"を使用することでリスト型にしてfor文で回し、unpakkingすることでキーとバリューを出力している
 
