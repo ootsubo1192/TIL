@@ -17,6 +17,7 @@
 * [self-taught](#self-taught)
 * [statistics](#statistics)
 * [Vim](#vim)
+* [Linux](#linux)
 
 ### Git
 - [blanch](git/blanch.md)
@@ -67,4 +68,19 @@
 - [Insert](vim/insert.md)
 - [Text-objects](vim/text-objects.md)
 - [Macros](vim/macros.md)
+
+### Linux
+- [basic-command](linux/basic-command.md)
+- [basic-operation](linux/basic-operation.md)
+- [cat](linux/cat.md)
+- [command-structure](linux/command-structure.md)
+- [directory](linux/directory.md)
+- [first-command](linux/first-command.md)
+- [input-and-output](linux/input-and-output.md)
+- [ln](linux/ln.md)
+- [manual](linux/manual.md)
+- [network](linux/network.md)
+- [permission](linux/permission.md)
+- [piping](linux/piping.md)
+- [process](linux/process.md)
 
