@@ -37,6 +37,23 @@ change_words(l, sample_func)
 
 実行順 35->27->28->32->28->27->以下リスト`l`の最後まで
 
+```python
+# def sample_func(word)
+  # return word.capitalize()
+
+sample_func = lambda word: word.capitalize()
+```
+
+2行程度で終わる簡単な関数に
+
+更に省略して以下のように書ける
+
+```python
+# change_words(l, sample_func)
+
+change_words(l, lambda word: word.capitalize())
+```
+
 ```output
 Mon
 Tue
