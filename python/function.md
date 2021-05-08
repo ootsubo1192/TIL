@@ -105,6 +105,28 @@ def test_func(x, l=None):
 
 こうすることで別のメモリにリストが作られ重複が避けられる
 
----
+## 関数内関数　クロージャー
+
+```python
+def circle_area_func(pi):
+    def circle_area(redius):
+        return pi * radius * redius
+
+    return circle_area
+
+cal1 = circle_area_func(3.14)
+cal2 = circle_area_func(3.141592)
+
+print(cal1(10))
+print(cal2(10))
+```
+
+1.`pi`に"3.14"を代入
+
+2. 関数`circle_area`は実行されずに`cal1`に関数のオブジェクトが格納される
+
+3. `print(cal1(10))`を実行することで`redius`に"10"を代入
+
+4. `circle_area`関数の結果がプリントされる
 
 
