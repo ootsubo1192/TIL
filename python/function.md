@@ -30,4 +30,21 @@ print(result)
 
 `result`に関数を代入して`print(result)`で出力
 
+---
+
+データ型の指定(指定するだけで構文でのエラーにできるわけではない)
+
+```python
+def add_num(a: int, b: int) -> int:
+    return a + b
+
+r = add_num('a' + 'b')
+print(r)
+```
+
+`a: int`で数値を入れてと指定、`-> int:`で出力も数値型になりますと教えてくれる
+
+基本的に使わない、文字列を入れたからと言ってエラーにもならない
+
+----
 
