@@ -1,6 +1,6 @@
 # class
 
-クラスの継承
+## クラスの継承
 
 ```python
 class Car(object):
