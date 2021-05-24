@@ -4,7 +4,7 @@
 
 debファイルを使用するときの基礎コマンド、Redhat系のrpmコマンドに相当
 
-"dpkg -i" -> パッケージのインストール(install)
+`dpkg -i` -> パッケージのインストール(install)
 
 "dpkg -r" -> パッケージの削除(remove)
 
