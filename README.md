@@ -83,4 +83,11 @@
 - [permission](linux/permission.md)
 - [piping](linux/piping.md)
 - [process](linux/process.md)
+- [dpkg](linux/dpkg-command.md)
+- [meta-character](linux/meta-character.md)
+- [regular-expression](linux/regular-expression.md)
+- [rpm](linux/rpm-command.md)
+- [yum](linux/yum-command.md)
+- [xz](linux/xz-command.md)
+
 
