@@ -1,4 +1,8 @@
-#Common UNIX Printing System
+#CUPS(Common UNIX Printing System)
+
+ネットワーク上のプリンタをサポートするプロトコルとして[IPP(Internet Printing Protocol)]を採用
+
+プリンタの機種依存情報を記述するファイルとして[PPD(Postscript Printer Description)]がある
 
 標準的な印刷コマンド
 
