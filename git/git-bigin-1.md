@@ -48,6 +48,16 @@ Gitはファイルの変更を3つのステージに分けて管理する
 
 まず、変更したファイルはWorking-directoryに保存される
 
+---
+
+新規作成ファイルは**untrack**ファイルであり、WorkingareaにはあるがGitは認識しない
+
+一度Staging−areaに追加することでGitで管理することができる
+
+既存のファイルの変更は**track**ファイルでGitの管理下にある
+
+---
+
 次に変更内容をSterging-areaに渡す
 
 最後にリポジトリに渡す
@@ -129,5 +139,9 @@ Pull Requestを選択 ->　New Pull Requestを選択(マージするブランチ
 ローカルリポジトリのmainブランチの内容が更新されたことを確認
 
 **ローカル内だけでマージするのではなく、リモートリポジトリからpullすることでmainブランチを最新にするように**
+
+### unstageする(キャンセル)
+
+Staging−areaの内容をWorking-areaに戻す
 
 
