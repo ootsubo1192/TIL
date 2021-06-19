@@ -40,4 +40,8 @@ mainブランチにマージしていないブランチは削除できない
 
 リモートリポジトリのブランチはGithub上のBranchesで選択肢ゴミ箱マークを押下
 
+### ブランチ名の改名
+
+`$ git branch -m <branchname> <new-branchname>`
+
 
