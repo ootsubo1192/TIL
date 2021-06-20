@@ -26,7 +26,7 @@ Newタブを押下 -> リポジトリ名決める
 
 設定情報一覧
 
-`$ git config --global --liset`
+`$ git config --global --list`
 
 ### リモートリポジトリからcloneしてローカルリポジトリを作成
 
