@@ -36,7 +36,7 @@ Outputs:
 
 `Resources`(供給源)->AWSサービスのスタックを構成するリソースとプロパティ(必須のパラメータ)
 
-'Outputs`(生産)->スタック構成後にCloudFormationから出力する値(重要)
+`Outputs`(生産)->スタック構成後にCloudFormationから出力する値(重要)
 
 Resourcesのみがゆいつの必須のパラメータになります。EC2やRDSの詳しい設定を記述する
 
