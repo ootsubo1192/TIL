@@ -140,3 +140,7 @@ Webサービスをコンテナに作成した時にホストのポートをWeb�
 
 `$ docker inspect <container>` -> コンテナのあらゆる情報を一覧表示できる
 
+### イメージを圧縮
+
+`$ docker save <image> > <filename>.tar`
+

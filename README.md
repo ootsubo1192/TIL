@@ -2,8 +2,8 @@
 
 > Today I learned
 
-私の日々の学んでいる言語や技術についてのアウトプット用のリポジトリです。
-簡潔に誰が見てもわかりやすいように心がけてる。(適度見返して、内容に不備がないかわかりやすく書かれていたか、確認)
+私の日々の学んでいる言語や技術についてのアウトプット用のリポジトリ
+誰かに説明するつもりで記録をしましょう。(適度見返して、内容に不備がないか、わかりやすく書かれているか確認)
 
 ---
 
@@ -14,8 +14,6 @@
 * [Mysql](#Mysql)
 * [Markdown](#markdown)
 * [Python](#python)
-* [self-taught](#self-taught)
-* [statistics](#statistics)
 * [Vim](#vim)
 * [Linux](#linux)
 
@@ -52,12 +50,8 @@
 
 ### Markdown
 - [Markdown](markdown/markdown.md)
+
 ### Python
-
-### self-taught
-- [Selt-taught](self-taught/self-taught.py)
-
-### statistics
 
 ### Vim
 - [Navigation-Commands](vim/Navigation-Commands.md)
@@ -89,5 +83,3 @@
 - [rpm](linux/rpm-command.md)
 - [yum](linux/yum-command.md)
 - [xz](linux/xz-command.md)
-
-
