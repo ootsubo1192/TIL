@@ -1,0 +1,14 @@
+Parameter:
+  BucketName:
+    Type: String
+
+Resource:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref BucketName
+    DeletionPolicy: Retain
+    # Retain: 古いリソースの保持(リソースに対する料金が発生していることに留意する)
+    # Delete: Default
+    # Snapshot: 削除前にスナップショットの保存、保存している間料金がかかる
+    UpdateReplacePolicy: Retain
