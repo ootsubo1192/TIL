@@ -1,0 +1,9 @@
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Retain
+    # templateで既存のリソースを取り込んた時に必須のパラメータ
+    # Retain: 残す
+    # Delete: 削除する(Default)
+    # Snapshot: スナップショットを作成してあとに、リソースの削除 
+    
