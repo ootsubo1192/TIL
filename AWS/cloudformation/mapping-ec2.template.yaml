@@ -1,0 +1,30 @@
+# Mappingでは、キーと値とが対応付けられる
+# マップ内の値を取得するために"Fn::FindMap"組み込み関数を使用する
+Parameters:
+  EnvirnmentName:
+    Description: Environment Name
+    Type: String
+    AloowedValues: [Development, production]
+    ConstraintDescritption: must be development or production
+
+Mappings:
+  AWSRegionArch2AMI:
+    ap-northeast-1:
+      HVM64: ami-06098fd00463352b6
+  # 環境ごとのインスタンスタイプの指定
+  EnvironmentToInstanceType:
+    # AloowedValues(許可された引数)
+    development:
+      instanceType: t2.micro
+    # We want a bigger instance type in production
+    production: 
+      instanceType: t2.small
+
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: !FindInMap [EnvironmetnToInstanceType, !Ref 'EnvironmentName', instanceType]
+      # Note we use the pseudo parameter AWS::Region
+      ImageId: !FindInMap [AWSRegionArch2AMI, !Ref 'AWS::Region', HVM64]
+  
