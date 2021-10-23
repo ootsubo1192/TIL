@@ -1,0 +1,34 @@
+Resources:
+  # here we define a SSH security group that will be used in the entire compamy
+  MyCompanyWideSSHSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Enable SSH access via port 22
+      SecurityGroupIngress:
+        # We have a lot of rules because it's a perfect security group.
+        # finance team network
+      - CidrIp: 10.0.48.0/24
+        FromPort: 22
+        IpProtocol: txp
+        ToPort: 22
+        # marketing team network
+      - CidrIp: 10.0.112.0/24
+        FromPort: 22
+        IpProtocol: tcp
+        ToPort: 22
+        # application team support network
+      - CidrIp: 10.0.176.0/24
+        FromPort: 22
+        IpProtocol: txp
+        ToPort: 22
+
+# 他のスタックにインポートする、応答として返す、コンソールで表示する出力値を宣言する。
+# Outputsを使用しての機密情報の出力には使用しない。
+Outputs:
+  StackSSHSecurityGroup:
+    Description: The SSH Security Group for our Company
+    Value: !Ref MyCompanyWideSSHSecurityGroup
+    # クロススタック参照にエクスポートされるリソースの名前
+    Export:
+      # TypeからOutputしてきている？
+      Name: SSHSecurityGroup
