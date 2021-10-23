@@ -1,0 +1,17 @@
+Parameters:
+  ImageId:
+    Type: AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>
+    Default: /aws/service/ami-amazon-linux-latest/amazn2-ami-hvm-x86_64-gp2
+
+Resources:
+  MySecureInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: !Ref ImageId
+      InstanceType: t2.micro
+      SecurityGroups:
+        # we reference the output here, using the Fn::ImportValue function
+        # エクスポートからクロススタック参照している
+        # 多層またはサービス指向アーキテクチャを使用することができる
+        - !ImportValue SSHSecurityGroup
+
