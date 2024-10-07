@@ -1,4 +1,4 @@
-#CUPS(Common UNIX Printing System)
+# CUPS(Common UNIX Printing System)
 
 ネットワーク上のプリンタをサポートするプロトコルとして[IPP(Internet Printing Protocol)]を採用
 
