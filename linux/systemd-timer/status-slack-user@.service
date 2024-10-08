@@ -1,0 +1,10 @@
+[Unit]
+# %i には実行元のユニット名が渡される
+Description=OnFailure %i to slack
+
+[Service]
+Type=oneshot
+
+ExecStart=/usr/local/bin/systemd-slack https://hooks.slack.com/services/ABCDEFGHI/xxxxxxxxxxxxxxxxxxxxx %i
+User=user
+Group=systemd-journal

@@ -1,0 +1,12 @@
+[Unit]
+Description=Run hoge.sh script
+
+# エラーのときに別の処理を呼び出すようにもできる
+# slack通知するように追加している
+OnFailure=fuga.service
+
+[Service]
+Type=oneshot
+
+# コマンドを記述
+ExecStart=/path/to/hoge.sh > /tmp/hoge.txt

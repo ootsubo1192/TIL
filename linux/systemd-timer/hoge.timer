@@ -1,0 +1,17 @@
+[Unit]
+Description=Run hoge.sh 
+
+[Timer]
+# 再起動や起動後 15分後にserviceを実行
+OnBootSec=15min
+
+# 2時間毎の10分にserviceを実行
+OnCalendar=*-*-* 00/2:10:00
+
+# 再起動や起動後に即時でserviceを実行
+Persistent=true
+
+[Install]
+# どこのターゲットで管理するかを設定する
+# ターゲット括りで停止･起動ができるらしい
+WantedBy=timers.target

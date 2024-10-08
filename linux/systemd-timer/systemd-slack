@@ -1,0 +1,32 @@
+#!/bin/bash
+
+WEBHOOKURL=$1
+UNIT=$2
+STATUS=$(systemctl status --full "$2")
+
+PAYLOAD=$(cat <<EOF
+{
+        "blocks": [
+                {
+                        "type": "header",
+                        "text": {
+                                "type": "plain_text",
+                                "text": ":pray:slackの絵文字もOK 日本語もOK",
+                                "emoji": true
+                        }
+                },
+                {
+                        "type": "section",
+                        "text": {
+                                "type": "mrkdwn",
+                                "text": "UNIT: \`$UNIT\`\n\n\`\`\`STATUS: \`$STATUS\`\`\`\`"
+                        }
+                }
+        ]
+}
+EOF
+)
+
+curl -X POST -H 'Content-type: application/json' \
+        --data "$PAYLOAD" \
+        "$WEBHOOKURL" > /dev/null
