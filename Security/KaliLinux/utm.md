@@ -136,4 +136,3 @@ sudo systemctl restart ssh
 ssh -i ~/.ssh/id_rsa kali@<192.168.xx.xx>
 ```
 
-
